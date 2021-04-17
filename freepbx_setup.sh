@@ -50,7 +50,8 @@ install_dep() {
   libsqlite3-dev pkg-config automake libtool autoconf git unixodbc-dev uuid uuid-dev\
   libasound2-dev libogg-dev libvorbis-dev libicu-dev libcurl4-openssl-dev libical-dev libneon27-dev libsrtp2-dev\
   libspandsp-dev sudo subversion libtool-bin python-dev unixodbc dirmngr sendmail-bin sendmail\
-  
+
+  apt-get install -y npm
   apt-get install -y nodejs
   
   apt-get install -y asterisk
