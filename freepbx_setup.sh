@@ -44,6 +44,8 @@ header() {
 }
 
 install_dep() {
+  apt-get update && apt-get upgrade -y
+
   apt-get install -y openssh-server apache2 mariadb-server\
   mariadb-client bison flex php php-curl php-cli php7.3-common php-mysql php-pear php-gd php-mbstring php-intl\
   curl sox libncurses5-dev libssl-dev mpg123 libxml2-dev libnewt-dev sqlite3\
